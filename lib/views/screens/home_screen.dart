@@ -12,11 +12,26 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(      
       appBar: AppBar(
-        title: const Text('Home Screen'),
+        title: const Text('CRUD'),
       ),
-      body: const Center(
-          child: Text('Hola Mundo!'),
-        )
+      body: ListView.builder(
+        itemBuilder: (context, index) {
+          return Card(
+            margin: EdgeInsets.all(15),
+            child: Text('asdf'),
+          );
+        },
+        itemCount: 2,
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){},
+        shape: BoxDecoration(
+          borderRadius: BorderRadius.circular(50)
+        ),
+        child: Icon(
+          Icons.add          
+        ),
+      ),
     );
   }
 }

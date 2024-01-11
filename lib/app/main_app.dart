@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_3_16_0/views/screens/home_screen.dart';
+import 'package:sqflite_1/views/screens/home_screen.dart';
 
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
