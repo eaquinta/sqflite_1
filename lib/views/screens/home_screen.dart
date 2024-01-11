@@ -25,11 +25,11 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: (){},
-        shape: BoxDecoration(
-          borderRadius: BorderRadius.circular(50)
-        ),
-        child: Icon(
-          Icons.add          
+        backgroundColor: Colors.blue,        
+        shape: const CircleBorder(),
+        child: const Icon(
+          Icons.add,
+          color: Colors.white,         
         ),
       ),
     );
